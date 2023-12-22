@@ -14,23 +14,29 @@ function App() {
   };
 
   return (
-    <div className='app'>
+    <div className="app">
       <h1>Hangry Traveler</h1>
-      <div className='input-container'>
+      <p className="description">
+        Input two points, and we will show you the best food spots along the way.
+      </p>
+      <div className="input-container">
         <input
           type="text"
-          placeholder="Enter starting point"
+          placeholder="Enter starting destination"
           value={startingLocation}
           onChange={handleStartLocationChange}
-          />
+        />
+      </div>
+      <div className="input-container">
         <input
           type="text"
-          placeholder='Enter final destination'
+          placeholder="Enter ending destination"
           value={endingLocation}
           onChange={handleEndLocationChange}
-          />
+        />
       </div>
     </div>
   );
 }
+
 export default App;

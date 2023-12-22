@@ -7,15 +7,22 @@ h1 {
   color: #007bff;
 }
 
+.description {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
 .input-container {
-  display: flex;
-  justify-content: center;
   margin-top: 20px;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 input {
+  display: block;
+  width: 100%;
   padding: 10px;
-  margin: 0 10px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
